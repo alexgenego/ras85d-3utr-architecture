@@ -80,9 +80,9 @@ Complete sequence-source information, accession numbers, coordinates, and mappin
 
 ## Archived release
 
-A permanent Zenodo archive and DOI corresponding to the manuscript-associated release will be added here after the final GitHub release is created.
+Version `v1.0.0` of this reproducibility archive is permanently preserved in Zenodo:
 
-Zenodo DOI: to be assigned
+**DOI:** [10.5281/zenodo.22108845](https://doi.org/10.5281/zenodo.22108845)
 
 ## Citation
 
