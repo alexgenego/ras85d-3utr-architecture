@@ -1,27 +1,25 @@
-Computational environment
+# Computational environment
 
-This directory contains software-version and dependency information required to reproduce the custom computational analyses reported in the manuscript.
+This directory documents the software environment used to validate the archived custom Python workflows associated with the manuscript.
 
-The primary custom analyses were performed in Python 3.13.5.
+## Python environment
 
-Key Python packages used in the final analytical workflow include:
+The archived scripts were validation-tested with:
 
-NumPy 2.3.5;
-pandas 2.2.3;
-SciPy 1.17.0;
-NetworkX 3.6.1.
+- Python 3.13.5
+- NumPy 2.3.5
+- pandas 2.2.3
+- SciPy 1.17.0
+- statsmodels 0.14.6
+- openpyxl 3.1.5
+- NetworkX 3.6.1
 
-Additional analyses and preprocessing used external software and web resources, including:
+`requirements.txt` records these package versions. `environment_check.py` can be used to print the Python and package versions available in a local environment.
 
-R;
-MEGA 12;
-ARPIP and Bio++;
-MEME Suite 5.5.9 and MAST;
-CENSOR/Repbase;
-TargetScanFly 7.2;
-RNAfold / ViennaRNA;
-Jupyter and Google Colaboratory.
+`openpyxl` is required as the Excel engine used by pandas for manuscript-associated `.xlsx` inputs. `statsmodels` is required by the branch-statistics workflow. NetworkX is retained in the archived analytical environment because it was used during network-oriented processing and validation, although not every archived script imports it directly.
 
-Where possible, exact software versions, fixed random seeds, permutation counts, and analysis-specific parameters are documented in the manuscript, Supplementary Materials, scripts, and QC records.
+## External software and resources
 
-A machine-readable dependency file, such as requirements.txt, will be included with the final public release where appropriate.
+Additional stages of the study used external software and databases described in the manuscript and Supplementary Materials, including MEGA, ARPIP/Bio++, MEME/MAST, CENSOR/Repbase, TargetScanFly, and RNAfold/ViennaRNA. These programs are not installed by `requirements.txt`.
+
+Fixed random seeds, permutation counts, analysis-specific parameters, and quality-control information are documented in the corresponding scripts, README files, and `qc/` records.

@@ -1,0 +1,7 @@
+Python 3.13.5
+NumPy 2.3.5
+pandas 2.2.3
+SciPy 1.17.0
+statsmodels 0.14.6
+openpyxl 3.1.5
+NetworkX 3.6.1
