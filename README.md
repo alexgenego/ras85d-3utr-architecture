@@ -105,7 +105,7 @@ The primary multiloop context-dispersion analysis is exactly reproduced by the p
 For the historical Boundary Pair Universe (BPU) analysis, the final builder and conditional permutation scripts, recorded input checksums, QC records, and compact final outputs are preserved. However, two normalized historical input files (`normalized_architecture.csv` and `interface_catalogue.csv`) were not retained after working-archive cleanup. They have not been reconstructed or replaced with a later object registry; therefore, the historical BPU analysis is not claimed to be fully rerunnable from the public archive.
 
 Files explicitly labelled `reconstructed` are recovery products generated from preserved final evidence and are not presented as the lost historical originals.
-Contact
+## Contact
 
 For questions concerning the analyses or repository contents, please contact:
 
