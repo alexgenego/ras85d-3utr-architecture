@@ -1,0 +1,8 @@
+﻿Metric,Type,Observed / setting,Comparison,P value
+Reference coordinate system,37-species analytical alignment,2247,,
+Number of IEL centers,Observed,34,,
+Spacing CV,Observed,1.4277388757271396,upper-tail Monte Carlo,0.006979930200697993
+Maximum spacing,Observed,471.5,upper-tail Monte Carlo,0.01078989210107899
+Median spacing,Observed,32.5,,
+Permutation replicates,Setting,100000,random unique centers from 1–2247,
+Random seed,Setting,20260716,,

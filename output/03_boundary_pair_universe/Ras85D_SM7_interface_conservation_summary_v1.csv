@@ -1,0 +1,15 @@
+﻿metric,value,unit
+Primary functional nodes,390,objects
+Observed strict functional interfaces,109,interfaces
+Homologous interface families,78,families
+Species-state matrix rows,234,family × species rows
+Families shared in ≥2 species,30,families
+Core three-species families,1,family
+Species-specific families,48,families
+Exact type/configuration conserved,29,families
+"Singleton, not comparable",48,families
+Type/configuration change,1,family
+Direct-contact absence states,17,states
+Partner-set comparisons,60,comparisons
+Partner-set turnover contrasts,12,comparisons
+Critical QC failures,0,failures

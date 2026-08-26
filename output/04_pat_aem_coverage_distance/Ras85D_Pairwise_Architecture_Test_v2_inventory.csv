@@ -1,0 +1,4 @@
+species,n_ECM,n_APA,n_UGUA,n_PAS,n_CLEAVAGE,n_DSE,n_MFE_structure,n_centroid_structure
+D.melanogaster,17,39,11,9,12,7,203,161
+D.yakuba,17,36,9,9,8,10,205,129
+D.virilis,15,52,12,13,9,18,252,185

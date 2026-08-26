@@ -1,0 +1,6 @@
+﻿state,endpoint_status,contact_status,biological_interpretation
+INTERFACE_PRESENT,both endpoint orthology groups represented,corresponding strict boundary interface observed,граничное соседство присутствует
+BOTH_ENDPOINTS_PRESENT_NO_INTERFACE,both endpoint groups represented,strict boundary interface absent,"оба объекта присутствуют, но соседство отсутствует"
+LEFT_ENDPOINT_ABSENT,left endpoint group absent,not evaluable as direct contact loss,отсутствует левый компонент
+RIGHT_ENDPOINT_ABSENT,right endpoint group absent,not evaluable as direct contact loss,отсутствует правый компонент
+BOTH_ENDPOINTS_ABSENT,both endpoint groups absent,not evaluable as direct contact loss,оба компонента отсутствуют

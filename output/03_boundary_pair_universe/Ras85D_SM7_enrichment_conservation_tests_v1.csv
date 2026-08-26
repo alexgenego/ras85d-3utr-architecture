@@ -1,0 +1,5 @@
+﻿test,statistic,p_value,FDR,interpretation
+mean_present_species_count,0.165443,0.586774,0.586774,no detectable association
+shared_fraction,0.165443,0.583074,0.586774,no detectable association
+contact_turnover_fraction,0.166207,0.580764,0.586774,no detectable association
+partner_replacement_fraction,0.417029,0.152868,0.586774,no detectable association

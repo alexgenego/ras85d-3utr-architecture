@@ -1,0 +1,5 @@
+node_id,node_label,layer_type,status
+IEL,IEL,evolutionarily recurrent indel layer,final
+ECM,ECM,evolutionarily conserved motif layer,final
+RNA_STRUCTURE,RNA structure,predicted RNA secondary-structure layer,final
+APA,APA,alternative polyadenylation annotation layer,final

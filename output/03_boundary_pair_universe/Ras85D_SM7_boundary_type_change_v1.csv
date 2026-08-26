@@ -1,0 +1,2 @@
+﻿interface_family_id,directed_pair,observed_in_Dyak,observed_in_Dvir,Dmel_state,minimum_type_changes,equally_parsimonious_placements,placement_support_each,conclusion
+Ras85D_EIF_00032,PAS 1.5 → ECM_2,ABUTTING_CUT at 424.5,SHARED_COORDINATE at 425.0,LEFT_ENDPOINT_ABSENT,1,3,0.3333333333333333,"one type change is required, but its branch is unresolved among three equally parsimonious placements"

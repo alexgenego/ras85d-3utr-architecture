@@ -1,0 +1,7 @@
+source,target,support_status,statistical_basis,summary
+IEL,ECM,FDR-supported primary,independent IEL-ECM interval analyses,"Main 27-locus model: overlap O/E=1.780 FDR=0.01412; boundary proximity O/E=1.938 FDR=0.000220"
+IEL,RNA_STRUCTURE,supported,prior BAN structural-boundary evidence,"Retained as a supported architectural relationship; not interpreted as direct physical contact"
+IEL,APA,no global effect,global integration evidence,"No global IEL-APA effect retained in final BAN"
+ECM,APA,nominal exploratory,PAT v2,"Total overlap O/E=1.185584; p=0.147529; FDR=0.216730"
+ECM,RNA_STRUCTURE,nominal exploratory,PAT v2,"Boundary-to-center O/E=3.508784; p=0.155894; FDR=0.311787"
+RNA_STRUCTURE,APA,FDR-supported primary,PAT v2,"Boundary-to-center observed=22.272727; null mean=4.272117; O/E=5.213510; p=0.003802; FDR=0.007605"

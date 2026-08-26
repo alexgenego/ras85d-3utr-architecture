@@ -1,0 +1,4 @@
+edge_id,evidence_grade,evidence_status,strongest_metric,strongest_metric_family,observed,null_mean,effect_ratio,p_enrichment,p_depletion,q_enrichment,q_depletion,statistical_class
+ECM__APA,C,nominal_exploratory_relation,ECM_APA__all__overlap,primary,70.0,59.04261796042618,1.1855842850145653,0.14752851711026616,0.8760456273764259,0.21673003802281368,0.8760456273764259,not_significant
+ECM__RNA_STRUCTURE,C,nominal_exploratory_relation,ECM_STRUCTURE__ANY__boundary_to_center,primary,99.0,28.21490315387427,3.508783973494023,0.155893536121673,1.0,0.311787072243346,1.0,not_significant
+RNA_STRUCTURE__APA,A,FDR_significant_primary_relation,STRUCTURE_APA__ANY__boundary_to_center,primary,22.272727272727273,4.272117439944359,5.213510065167441,0.0038022813688212928,0.9984790874524715,0.0076045627376425855,1.0,significant_enrichment

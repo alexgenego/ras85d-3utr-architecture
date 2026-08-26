@@ -1,0 +1,4 @@
+﻿interface_family_id,directed_pair,object_types,phyletic_class,dmel_state,dyak_state,dvir_state,classification,alignment_anchor
+Ras85D_EIF_00031,miR-999-5p → ECM_2,MIRNA_SITE → ECM,CORE_3_SPECIES,INTERFACE_PRESENT; ABUTTING_CUT,INTERFACE_PRESENT; ABUTTING_CUT,INTERFACE_PRESENT; ABUTTING_CUT,точное сохранение типа граничного соседства,424.5
+Ras85D_EIF_00011,ECM_11 → ECM_4,ECM → ECM,MEL_YAK_SHARED,INTERFACE_PRESENT; ABUTTING_CUT,INTERFACE_PRESENT; ABUTTING_CUT,BOTH_ENDPOINTS_PRESENT_NO_INTERFACE,смена контакта при сохранении обоих компонентов,311.5
+Ras85D_EIF_00032,PAS 1.5 → ECM_2,PAS → ECM,YAK_VIR_SHARED,LEFT_ENDPOINT_ABSENT,INTERFACE_PRESENT; ABUTTING_CUT,INTERFACE_PRESENT; SHARED_COORDINATE,единственная смена типа граничного соседства,424.5 → 425.0

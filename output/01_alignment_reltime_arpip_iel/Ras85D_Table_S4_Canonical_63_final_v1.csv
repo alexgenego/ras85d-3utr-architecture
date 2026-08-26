@@ -1,0 +1,64 @@
+﻿Canonical branch ID,Legacy ID,Branch type,Parent canonical ID,Branch length,"Descendants, n",Descendant taxa,Clade / taxon label,Indel regime,Insertion O/E (representative only),Insertion FDR (representative only),Deletion O/E (representative only),Deletion FDR (representative only),Numeric-detail status
+N01,V38,internal,ROOT,0.0484940645767252,20,D.ananassae; D.biarmipes; D.bipectinata; D.elegans; D.erecta; D.eugracilis; D.ficusphila; D.kikkawai; D.melanogaster; D.obscura; D.persimilis; D.pseudoobscura; D.rhopaloa; D.sechellia; D.serrata; D.simulans; D.suzukii; D.takahashii; D.willistoni; D.yakuba,Sophophora clade (20 taxa; legacy V38),insertion_enriched,4.21,0.0003080799901286418,0.4,1,exact representative metrics
+N02,V36,internal,N01,0.0765022229093255,19,D.ananassae; D.biarmipes; D.bipectinata; D.elegans; D.erecta; D.eugracilis; D.ficusphila; D.kikkawai; D.melanogaster; D.obscura; D.persimilis; D.pseudoobscura; D.rhopaloa; D.sechellia; D.serrata; D.simulans; D.suzukii; D.takahashii; D.yakuba,MRCA clade; n=19,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+N03,V30,internal,N02,0.0391051275906051,16,D.ananassae; D.biarmipes; D.bipectinata; D.elegans; D.erecta; D.eugracilis; D.ficusphila; D.kikkawai; D.melanogaster; D.rhopaloa; D.sechellia; D.serrata; D.simulans; D.suzukii; D.takahashii; D.yakuba,MRCA clade; n=16,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+N04,V28,internal,N03,0.00685888716887091,15,D.ananassae; D.biarmipes; D.bipectinata; D.elegans; D.erecta; D.eugracilis; D.ficusphila; D.kikkawai; D.melanogaster; D.sechellia; D.serrata; D.simulans; D.suzukii; D.takahashii; D.yakuba,MRCA clade; n=15,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+N05,V18,internal,N04,0.00270680472465938,10,D.biarmipes; D.elegans; D.erecta; D.ficusphila; D.melanogaster; D.sechellia; D.simulans; D.suzukii; D.takahashii; D.yakuba,MRCA clade; n=10,deletion_enriched,5.81,1,27.81,6.392788596947606e-28,exact representative metrics
+N06,V14,internal,N05,0.000512041553577458,8,D.biarmipes; D.erecta; D.melanogaster; D.sechellia; D.simulans; D.suzukii; D.takahashii; D.yakuba,MRCA clade; n=8,deletion_enriched,,,,,canonical regime; full legacy O/E not recopied
+N07,V8,internal,N06,0.019600814491692,5,D.erecta; D.melanogaster; D.sechellia; D.simulans; D.yakuba,MRCA clade; n=5,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+N08,V4,internal,N07,0.002659057834452,3,D.melanogaster; D.sechellia; D.simulans,MRCA clade; n=3,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+N09,V2,internal,N08,0.00271034146549419,2,D.sechellia; D.simulans,MRCA clade; n=2,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.sechellia,,terminal,N09,0.00537702776097982,1,D.sechellia,D.sechellia,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.melanogaster,,terminal,N08,0.00806657132875923,1,D.melanogaster,D.melanogaster,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+N10,V7,internal,N07,0.00262940287510638,2,D.erecta; D.yakuba,MRCA clade; n=2,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.yakuba,,terminal,N10,0.00538277305187404,1,D.yakuba,D.yakuba,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.erecta,,terminal,N10,0.00264752485299149,1,D.erecta,D.erecta,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+N11,V13,internal,N06,0.0111868886126543,3,D.biarmipes; D.suzukii; D.takahashii,MRCA clade; n=3,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.takahashii,,terminal,N11,0.0166334346263138,1,D.takahashii,D.takahashii,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+N12,V12,internal,N11,0.00798258125081814,2,D.biarmipes; D.suzukii,MRCA clade; n=2,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.biarmipes,,terminal,N12,0.00526079789356293,1,D.biarmipes,D.biarmipes,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.suzukii,,terminal,N12,0.00540076377067987,1,D.suzukii,D.suzukii,deletion_enriched,,,,,canonical regime; full legacy O/E not recopied
+N13,V17,internal,N05,0.00412129650807249,2,D.elegans; D.ficusphila,MRCA clade; n=2,deletion_enriched,,,,,canonical regime; full legacy O/E not recopied
+D.ficusphila,,terminal,N13,0.0109448254739725,1,D.ficusphila,D.ficusphila,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.elegans,,terminal,N13,0.00809565197377974,1,D.elegans,D.elegans,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+N14,V27,internal,N04,0.0103156232580543,5,D.ananassae; D.bipectinata; D.eugracilis; D.kikkawai; D.serrata,MRCA clade; n=5,deletion_enriched,,,,,canonical regime; full legacy O/E not recopied
+D.eugracilis,,terminal,N14,0.0333523369733047,1,D.eugracilis,D.eugracilis,deletion_enriched,,,,,canonical regime; full legacy O/E not recopied
+N15,V26,internal,N14,0.029070057854176,4,D.ananassae; D.bipectinata; D.kikkawai; D.serrata,MRCA clade; n=4,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+N16,V22,internal,N15,0.097579691017463,2,D.ananassae; D.bipectinata,MRCA clade; n=2,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.ananassae,,terminal,N16,0.0325044707185535,1,D.ananassae,D.ananassae,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.bipectinata,,terminal,N16,0.0232350838074931,1,D.bipectinata,D.bipectinata,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+N17,V25,internal,N15,0.0174400367033222,2,D.kikkawai; D.serrata,MRCA clade; n=2,deletion_enriched,,,,,canonical regime; full legacy O/E not recopied
+D.kikkawai,,terminal,N17,0.0136651200647074,1,D.kikkawai,D.kikkawai,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.serrata,,terminal,N17,0.0138951200068427,1,D.serrata,D.serrata,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.rhopaloa,,terminal,N03,0.0110127753998842,1,D.rhopaloa,D.rhopaloa,deletion_enriched,0,1,9.62,2.661973812595398e-23,exact representative metrics
+N18,V35,internal,N02,0.0685792878188838,3,D.obscura; D.persimilis; D.pseudoobscura,MRCA clade; n=3,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.obscura,,terminal,N18,0.0149350324762168,1,D.obscura,D.obscura,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+N19,V34,internal,N18,0.0183414060000097,2,D.persimilis; D.pseudoobscura,MRCA clade; n=2,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.pseudoobscura,,terminal,N19,0.00268641032434995,1,D.pseudoobscura,D.pseudoobscura,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.willistoni,,terminal,N01,0.259315458768064,1,D.willistoni,D.willistoni,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+N20,V69,internal,ROOT,0.0460065680379961,16,D.albomicans; D.americana; D.borealis; D.busckii; D.ezoana; D.flavomontana; D.grimshawi; D.hydei; D.kanekoi; D.littoralis; D.lummei; D.mojavensis; D.montana; D.navojoa; D.novamexicana; D.virilis,Drosophila + Dorsilopha clade (16 taxa; legacy V69),insertion_enriched,8.54,1.4416028786291953e-14,0.79,1,exact representative metrics
+D.busckii,,terminal,N20,0.145232157709429,1,D.busckii,D.busckii,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+N21,V68,internal,N20,0.00534301147947371,15,D.albomicans; D.americana; D.borealis; D.ezoana; D.flavomontana; D.grimshawi; D.hydei; D.kanekoi; D.littoralis; D.lummei; D.mojavensis; D.montana; D.navojoa; D.novamexicana; D.virilis,subgenus Drosophila clade (15 taxa; legacy V68; excludes D. busckii),bidirectional_turnover,26.47,2.9496966065565363e-09,4.7,0.0008860924522371479,exact representative metrics
+N22,V46,internal,N21,0.0153147668615131,4,D.albomicans; D.hydei; D.mojavensis; D.navojoa,MRCA clade; n=4,deletion_enriched,,,,,canonical regime; full legacy O/E not recopied
+N23,V44,internal,N22,0.0151117664502494,3,D.hydei; D.mojavensis; D.navojoa,MRCA clade; n=3,deletion_enriched,,,,,canonical regime; full legacy O/E not recopied
+N24,V42,internal,N23,0.0151192318988978,2,D.mojavensis; D.navojoa,MRCA clade; n=2,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.navojoa,,terminal,N24,0.00716419067118389,1,D.navojoa,D.navojoa,deletion_enriched,,,,,canonical regime; full legacy O/E not recopied
+D.mojavensis,,terminal,N24,0.0356616351852278,1,D.mojavensis,D.mojavensis,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.hydei,,terminal,N23,0.0375014494159056,1,D.hydei,D.hydei,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.albomicans,,terminal,N22,0.106838607696649,1,D.albomicans,D.albomicans,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+N25,V67,internal,N21,0.0150039502105024,11,D.americana; D.borealis; D.ezoana; D.flavomontana; D.grimshawi; D.kanekoi; D.littoralis; D.lummei; D.montana; D.novamexicana; D.virilis,MRCA clade; n=11,deletion_enriched,,,,,canonical regime; full legacy O/E not recopied
+D.grimshawi,,terminal,N25,0.0443727971798003,1,D.grimshawi,D.grimshawi,insertion_enriched,3.19,0.0351490169717405,0.57,1,exact representative metrics
+N26,V66,internal,N25,0.0536577607278481,10,D.americana; D.borealis; D.ezoana; D.flavomontana; D.kanekoi; D.littoralis; D.lummei; D.montana; D.novamexicana; D.virilis,MRCA clade; n=10,deletion_enriched,,,,,canonical regime; full legacy O/E not recopied
+D.ezoana,,terminal,N26,0.0023760216910975,1,D.ezoana,D.ezoana,deletion_enriched,0,1,15.25,1.0437472769581838e-10,exact representative metrics
+N27,V65,internal,N26,0.00302095871275114,9,D.americana; D.borealis; D.flavomontana; D.kanekoi; D.littoralis; D.lummei; D.montana; D.novamexicana; D.virilis,MRCA clade; n=9,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.kanekoi,,terminal,N27,0.00542319509975482,1,D.kanekoi,D.kanekoi,deletion_enriched,,,,,canonical regime; full legacy O/E not recopied
+N29,V54,internal,N28,0.00271041487937953,3,D.borealis; D.flavomontana; D.montana,MRCA clade; n=3,deletion_enriched,,,,,canonical regime; full legacy O/E not recopied
+D.montana,,terminal,N30,0.00543251819183553,1,D.montana,D.montana,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.flavomontana,,terminal,N30,0.00270064815540166,1,D.flavomontana,D.flavomontana,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.borealis,,terminal,N29,0.00543250357183303,1,D.borealis,D.borealis,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.littoralis,,terminal,N31,0.0164866736820141,1,D.littoralis,D.littoralis,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+N32,V62,internal,N31,0.00545017861405303,4,D.americana; D.lummei; D.novamexicana; D.virilis,MRCA clade; n=4,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.virilis,,terminal,N32,0.00818986898542222,1,D.virilis,D.virilis,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+N33,V61,internal,N32,0.0026633660706644,3,D.americana; D.lummei; D.novamexicana,MRCA clade; n=3,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+D.lummei,,terminal,N33,0.00539341101473824,1,D.lummei,D.lummei,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
+N34,V60,internal,N33,0.00543457733312303,2,D.americana; D.novamexicana,MRCA clade; n=2,no_significant_enrichment,,,,,canonical regime; full legacy O/E not recopied
