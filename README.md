@@ -1,6 +1,6 @@
 # ras85d-3utr-architecture
 Reproducible code and analysis resources for multilayer analysis of ras85D 3′ UTR evolution in Drosophila.
-Associated manuscript
+## Associated manuscript
 
 Evolutionary Plasticity, Conservation of Functional Motifs, and Structural-Functional Architecture of the ras85D 3′ UTR in Drosophila
 
@@ -8,7 +8,7 @@ Aleksey M. Kulikov, Ekaterina A. Sivoplyas, and Oleg E. Lazebny
 
 Submitted to Genes.
 
-Purpose of this repository
+## Purpose of this repository
 
 This repository provides the custom computational code, final analysis inputs, quality-control records, and machine-readable outputs used to support the reproducibility of the analyses reported in the associated manuscript.
 
@@ -25,7 +25,7 @@ Coverage Enrichment and Functional Distance tests;
 Pairwise Architecture Test (PAT);
 Architecture Evidence Matrix (AEM) and Basal Architecture Network (BAN);
 between-context dispersion analysis of cleavage-site usage.
-Repository structure
+## Repository structure
 
 The repository is organized into the following main directories:
 
@@ -37,19 +37,19 @@ environment/ — software-version and dependency information.
 
 Only the final, manuscript-relevant analysis versions are included. Exploratory, obsolete, intermediate, and legacy versions are not part of the public reproducibility archive.
 
-Reproducibility
+## Reproducibility
 
 Fixed pseudorandom-number seeds were used for stochastic analyses where applicable. Permutation counts, seeds, null models, coordinate conventions, and statistical procedures are described in the manuscript, Supplementary Materials, and accompanying files.
 
 Particular attention is given to the reproducibility of:
 
-conditional permutation of endpoint identities in boundary-neighborhood analyses;
+conditional randomization within the Boundary Pair Universe while preserving the observed number of interfaces within matching geometric strata;
 interval-preserving Coverage Enrichment tests;
 Functional Distance tests;
 circular-shift permutation tests used in PAT;
 AEM and BAN construction;
 between-context dispersion analyses.
-Coordinate systems
+## Coordinate systems
 
 The study uses several coordinate systems, including:
 
@@ -59,7 +59,7 @@ the alignment3 coordinate system used for multilayer architecture analyses.
 
 The coordinate system relevant to each analysis is specified in the manuscript, Supplementary Materials, and corresponding input/output files.
 
-Software
+## Software
 
 Custom analyses were performed primarily in Python 3.13.5 using packages including:
 
@@ -70,7 +70,7 @@ NetworkX.
 
 Additional analyses used R, MEGA, ARPIP, MEME/MAST, CENSOR/Repbase, TargetScanFly, and RNAfold/ViennaRNA as described in the manuscript.
 
-Data provenance
+## Data provenance
 
 Primary sequence data were obtained from public NCBI resources and previously published genome assemblies, including the Drosophila virilis group genome dataset archived in Zenodo.
 
@@ -78,21 +78,21 @@ Predicted miRNA target-site information was obtained from TargetScanFly 7.2.
 
 Complete sequence-source information, accession numbers, coordinates, and mapping evidence are provided in the Supplementary Materials of the manuscript.
 
-Archived release
+## Archived release
 
 A permanent Zenodo archive and DOI corresponding to the manuscript-associated release will be added here after the final GitHub release is created.
 
 Zenodo DOI: to be assigned
 
-Citation
+## Citation
 
 Please cite the associated manuscript when using these analysis resources.
 
 A formal citation and DOI will be added after publication.
 
-License
+## License
 
-License information will be added before the repository is made public.
+This repository is released under the MIT License.
 
 ## Reproducibility status
 
