@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript and the archived software release."
+title: "ras85d-3utr-architecture"
+type: software
+
+authors:
+  - family-names: "Kulikov"
+    given-names: "Aleksey M."
+  - family-names: "Sivoplyas"
+    given-names: "Ekaterina A."
+  - family-names: "Lazebny"
+    given-names: "Oleg E."
+
+repository-code: "https://github.com/alexgenego/ras85d-3utr-architecture"
+
+license: MIT
+
+keywords:
+  - ras85D
+  - 3UTR
+  - Drosophila
+  - indels
+  - evolutionary conserved motifs
+  - alternative polyadenylation
+  - RNA secondary structure
+  - permutation tests
+  - regulatory architecture
+
+abstract: >
+  Reproducibility archive containing custom computational scripts,
+  final analysis inputs, quality-control records, and machine-readable
+  outputs for the multilayer analysis of ras85D 3′ UTR evolution in
+  Drosophila.
