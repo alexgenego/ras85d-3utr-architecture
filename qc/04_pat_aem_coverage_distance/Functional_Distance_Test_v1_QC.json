@@ -1,0 +1,11 @@
+{
+  "test": "Functional Distance Test v1.0 authoritative",
+  "n_architecture_rows": 510,
+  "n_permutations": 10000,
+  "seed": 20260718,
+  "landmarks_argument": "PAS,CLEAVAGE",
+  "exclude_self": true,
+  "tests": 12,
+  "nominal_p_lt_0_05": 0,
+  "fdr_lt_0_05": 0
+}

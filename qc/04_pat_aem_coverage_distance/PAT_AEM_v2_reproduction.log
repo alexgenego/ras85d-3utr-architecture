@@ -1,0 +1,183 @@
++ /opt/pyvenv/bin/python /mnt/data/Ras85D_prepare_authoritative_PAT_AEM_input_v2.py --registry /mnt/data/ras85d_public_input_v1/input/02_feature_catalogue_registry_qc/29A_3_01_final_object_registry.csv --output-dir /mnt/data/qc_build_logs/pat_aem_v2_rerun/Workspace --alignment-length 1315
+==============================================================================
+AUTHORITATIVE PAT/AEM INPUT — PASS
+==============================================================================
+object_type_PAT  ECM_BLOCK  UGUA  PAS  CLEAVAGE_SITE  DOWNSTREAM_ELEMENT  RNA_STRUCTURE
+species                                                                                
+D.melanogaster          17    11    9             12                   7            364
+D.yakuba                17     9    9              8                  10            334
+D.virilis               15    12   13              9                  18            437
+
+ECM: 49
+APA: 127
+RNA structure: 1135
+All PAT/AEM objects: 1311
+QC: /mnt/data/qc_build_logs/pat_aem_v2_rerun/Workspace/Ras85D_authoritative_PAT_AEM_input_QC_v1.json
++ /opt/pyvenv/bin/python /mnt/data/qc_build_logs/pat_aem_v2_rerun/Workspace/Pairwise_Architecture_Test_v2_authoritative.py
+========================================================================
+PAIRWISE ARCHITECTURE TEST v2
+========================================================================
+MAT: /mnt/data/qc_build_logs/pat_aem_v2_rerun/Workspace/Ras85D_Master_Architecture_Table_v1_1.csv
+alignment3 master: /mnt/data/qc_build_logs/pat_aem_v2_rerun/Workspace/Ras85D_alignment3_master_base.csv
+Длина alignment3: 1315
+
+Инвентаризация объектов:
+       species  n_ECM  n_APA  n_UGUA  n_PAS  n_CLEAVAGE  n_DSE  n_MFE_structure  n_centroid_structure
+D.melanogaster     17     39      11      9          12      7              203                   161
+      D.yakuba     17     36       9      9           8     10              205                   129
+     D.virilis     15     52      12     13           9     18              252                   185
+
+Наблюдаемые метрики:
+                                     metric            edge_id metric_family                                                 interpretation   observed
+     ECM_STRUCTURE__ANY__boundary_to_center ECM__RNA_STRUCTURE       primary ECM boundary/center ratio relative to any predicted structure.  99.000000
+                ECM_STRUCTURE__ANY__overlap ECM__RNA_STRUCTURE       primary              ECM overlapping any predicted structural element.  49.000000
+                      ECM_APA__all__overlap           ECM__APA       primary                                   APA objects overlapping ECM.  70.000000
+                    ECM_APA__all__within_10           ECM__APA       primary                APA objects within 10 alignment columns of ECM.  87.000000
+     STRUCTURE_APA__ANY__boundary_to_center RNA_STRUCTURE__APA       primary APA boundary/center ratio relative to any predicted structure.  22.272727
+                STRUCTURE_APA__ANY__overlap RNA_STRUCTURE__APA       primary      APA objects overlapping any predicted structural element. 127.000000
+               ECM_STRUCTURE__ANY__boundary ECM__RNA_STRUCTURE   exploratory                        ECM boundary relative to ANY structure.  49.000000
+                 ECM_STRUCTURE__ANY__center ECM__RNA_STRUCTURE   exploratory                          ECM center relative to ANY structure.   0.000000
+               ECM_STRUCTURE__MFE__boundary ECM__RNA_STRUCTURE   exploratory                        ECM boundary relative to MFE structure.  49.000000
+                 ECM_STRUCTURE__MFE__center ECM__RNA_STRUCTURE   exploratory                          ECM center relative to MFE structure.   0.000000
+                ECM_STRUCTURE__MFE__overlap ECM__RNA_STRUCTURE   exploratory                                ECM overlap with MFE structure.  49.000000
+     ECM_STRUCTURE__MFE__boundary_to_center ECM__RNA_STRUCTURE   exploratory                             ECM boundary/center ratio for MFE.  99.000000
+          ECM_STRUCTURE__CENTROID__boundary ECM__RNA_STRUCTURE   exploratory                   ECM boundary relative to CENTROID structure.  46.000000
+            ECM_STRUCTURE__CENTROID__center ECM__RNA_STRUCTURE   exploratory                     ECM center relative to CENTROID structure.   3.000000
+           ECM_STRUCTURE__CENTROID__overlap ECM__RNA_STRUCTURE   exploratory                           ECM overlap with CENTROID structure.  49.000000
+ECM_STRUCTURE__CENTROID__boundary_to_center ECM__RNA_STRUCTURE   exploratory                        ECM boundary/center ratio for CENTROID.  13.285714
+                     ECM_APA__all__within_5           ECM__APA   exploratory                           APA objects within 5 columns of ECM.  85.000000
+                     ECM_APA__UGUA__overlap           ECM__APA   exploratory                                  UGUA overlap relative to ECM.  17.000000
+                   ECM_APA__UGUA__within_10           ECM__APA   exploratory                                UGUA within_10 relative to ECM.  20.000000
+                      ECM_APA__PAS__overlap           ECM__APA   exploratory                                   PAS overlap relative to ECM.  21.000000
+                    ECM_APA__PAS__within_10           ECM__APA   exploratory                                 PAS within_10 relative to ECM.  24.000000
+            ECM_APA__CLEAVAGE_SITE__overlap           ECM__APA   exploratory                         CLEAVAGE_SITE overlap relative to ECM.  12.000000
+          ECM_APA__CLEAVAGE_SITE__within_10           ECM__APA   exploratory                       CLEAVAGE_SITE within_10 relative to ECM.  20.000000
+       ECM_APA__DOWNSTREAM_ELEMENT__overlap           ECM__APA   exploratory                    DOWNSTREAM_ELEMENT overlap relative to ECM.  20.000000
+     ECM_APA__DOWNSTREAM_ELEMENT__within_10           ECM__APA   exploratory                  DOWNSTREAM_ELEMENT within_10 relative to ECM.  23.000000
+               STRUCTURE_APA__ANY__boundary RNA_STRUCTURE__APA   exploratory                        APA boundary relative to ANY structure. 122.000000
+                 STRUCTURE_APA__ANY__center RNA_STRUCTURE__APA   exploratory                          APA center relative to ANY structure.   5.000000
+               STRUCTURE_APA__MFE__boundary RNA_STRUCTURE__APA   exploratory                        APA boundary relative to MFE structure. 120.000000
+                 STRUCTURE_APA__MFE__center RNA_STRUCTURE__APA   exploratory                          APA center relative to MFE structure.   7.000000
+                STRUCTURE_APA__MFE__overlap RNA_STRUCTURE__APA   exploratory                                APA overlap with MFE structure. 127.000000
+     STRUCTURE_APA__MFE__boundary_to_center RNA_STRUCTURE__APA   exploratory                             APA boundary/center ratio for MFE.  16.066667
+          STRUCTURE_APA__CENTROID__boundary RNA_STRUCTURE__APA   exploratory                   APA boundary relative to CENTROID structure.  91.000000
+            STRUCTURE_APA__CENTROID__center RNA_STRUCTURE__APA   exploratory                     APA center relative to CENTROID structure.  36.000000
+           STRUCTURE_APA__CENTROID__overlap RNA_STRUCTURE__APA   exploratory                           APA overlap with CENTROID structure. 127.000000
+STRUCTURE_APA__CENTROID__boundary_to_center RNA_STRUCTURE__APA   exploratory                        APA boundary/center ratio for CENTROID.   2.506849
+              STRUCTURE_APA__UGUA__boundary RNA_STRUCTURE__APA   exploratory                       UGUA boundary relative to any structure.  31.000000
+                STRUCTURE_APA__UGUA__center RNA_STRUCTURE__APA   exploratory                         UGUA center relative to any structure.   1.000000
+               STRUCTURE_APA__PAS__boundary RNA_STRUCTURE__APA   exploratory                        PAS boundary relative to any structure.  31.000000
+                 STRUCTURE_APA__PAS__center RNA_STRUCTURE__APA   exploratory                          PAS center relative to any structure.   0.000000
+     STRUCTURE_APA__CLEAVAGE_SITE__boundary RNA_STRUCTURE__APA   exploratory              CLEAVAGE_SITE boundary relative to any structure.  26.000000
+       STRUCTURE_APA__CLEAVAGE_SITE__center RNA_STRUCTURE__APA   exploratory                CLEAVAGE_SITE center relative to any structure.   3.000000
+STRUCTURE_APA__DOWNSTREAM_ELEMENT__boundary RNA_STRUCTURE__APA   exploratory         DOWNSTREAM_ELEMENT boundary relative to any structure.  34.000000
+  STRUCTURE_APA__DOWNSTREAM_ELEMENT__center RNA_STRUCTURE__APA   exploratory           DOWNSTREAM_ELEMENT center relative to any structure.   1.000000
+
+Начинается полный перебор циклических сдвигов...
+Выполнено: 100/1314; 1.8 сек.
+Выполнено: 200/1314; 3.3 сек.
+Выполнено: 300/1314; 4.8 сек.
+Выполнено: 400/1314; 6.3 сек.
+Выполнено: 500/1314; 7.8 сек.
+Выполнено: 600/1314; 9.2 сек.
+Выполнено: 700/1314; 10.7 сек.
+Выполнено: 800/1314; 12.1 сек.
+Выполнено: 900/1314; 13.6 сек.
+Выполнено: 1000/1314; 15.1 сек.
+Выполнено: 1100/1314; 16.6 сек.
+Выполнено: 1200/1314; 18.1 сек.
+Выполнено: 1300/1314; 19.6 сек.
+Выполнено: 1314/1314; 19.8 сек.
+Скопирован: /mnt/data/qc_build_logs/pat_aem_v2_rerun/PAT_authoritative/Backup/Ras85D_Pairwise_Architecture_Test_v2_results.csv
+Скопирован: /mnt/data/qc_build_logs/pat_aem_v2_rerun/PAT_authoritative/Backup/Ras85D_Pairwise_Architecture_Test_v2_edge_summary.csv
+Скопирован: /mnt/data/qc_build_logs/pat_aem_v2_rerun/PAT_authoritative/Backup/Ras85D_Pairwise_Architecture_Test_v2_inventory.csv
+Скопирован: /mnt/data/qc_build_logs/pat_aem_v2_rerun/PAT_authoritative/Backup/Ras85D_Pairwise_Architecture_Test_v2.xlsx
+Скопирован: /mnt/data/qc_build_logs/pat_aem_v2_rerun/PAT_authoritative/Backup/Ras85D_Pairwise_Architecture_Test_v2_null.npz
+Скопирован: /mnt/data/qc_build_logs/pat_aem_v2_rerun/PAT_authoritative/Backup/Ras85D_Pairwise_Architecture_Test_v2_QC.txt
+
+========================================================================
+PAIRWISE ARCHITECTURE TEST v2 ЗАВЕРШЁН
+========================================================================
+
+Итоги по рёбрам BAN:
+           edge_id evidence_grade                  evidence_status                       strongest_metric strongest_metric_family  observed  null_mean  effect_ratio  p_enrichment  p_depletion  q_enrichment  q_depletion      statistical_class
+          ECM__APA              C     nominal_exploratory_relation                  ECM_APA__all__overlap                 primary 70.000000  59.042618      1.185584      0.147529     0.876046      0.216730     0.876046        not_significant
+ECM__RNA_STRUCTURE              C     nominal_exploratory_relation ECM_STRUCTURE__ANY__boundary_to_center                 primary 99.000000  28.214903      3.508784      0.155894     1.000000      0.311787     1.000000        not_significant
+RNA_STRUCTURE__APA              A FDR_significant_primary_relation STRUCTURE_APA__ANY__boundary_to_center                 primary 22.272727   4.272117      5.213510      0.003802     0.998479      0.007605     1.000000 significant_enrichment
+
+Значимые и номинальные метрики:
+           edge_id                                      metric metric_family                                                 interpretation   observed  null_mean  null_median  null_sd  null_q025  null_q975  fold_observed_expected   z_score  p_enrichment  p_depletion  n_shifts  q_enrichment_BH  q_depletion_BH      statistical_class
+RNA_STRUCTURE__APA      STRUCTURE_APA__ANY__boundary_to_center       primary APA boundary/center ratio relative to any predicted structure.  22.272727   4.272117     3.830189 2.046023   2.424658   7.632759                5.213510  8.797851      0.003802     0.998479      1314         0.007605        1.000000 significant_enrichment
+ECM__RNA_STRUCTURE           ECM_STRUCTURE__CENTROID__boundary   exploratory                   ECM boundary relative to CENTROID structure.  46.000000  41.294521    42.000000 2.758773  35.000000  46.000000                1.113949  1.705642      0.039544     0.995437      1314         0.228137        1.000000     nominal_enrichment
+ECM__RNA_STRUCTURE ECM_STRUCTURE__CENTROID__boundary_to_center   exploratory                        ECM boundary/center ratio for CENTROID.  13.285714   7.020698     6.538462 2.898021   3.158696  13.285714                1.892364  2.161826      0.045627     0.980989      1314         0.228137        1.000000     nominal_enrichment
+          ECM__APA                       ECM_APA__PAS__overlap   exploratory                                   PAS overlap relative to ECM.  21.000000  15.130898    15.000000 3.325395   8.000000  22.000000                1.387889  1.764934      0.047148     0.969582      1314         0.331939        0.969582     nominal_enrichment
+RNA_STRUCTURE__APA                STRUCTURE_APA__ANY__boundary   exploratory                        APA boundary relative to ANY structure. 122.000000  99.439117    99.000000 6.247597  88.000000 112.000000                1.226881  3.611130      0.003802     0.998479      1314         0.018251        1.000000 significant_enrichment
+RNA_STRUCTURE__APA                  STRUCTURE_APA__ANY__center   exploratory                          APA center relative to ANY structure.   5.000000  25.124049    25.000000 5.953154  14.000000  36.000000                0.199013 -3.380401      0.998479     0.003802      1314         1.000000        0.031939  significant_depletion
+RNA_STRUCTURE__APA                STRUCTURE_APA__MFE__boundary   exploratory                        APA boundary relative to MFE structure. 120.000000  96.483257    96.000000 6.253111  85.825000 109.000000                1.243739  3.760807      0.001521     0.999240      1314         0.013688        1.000000 significant_enrichment
+RNA_STRUCTURE__APA                  STRUCTURE_APA__MFE__center   exploratory                          APA center relative to MFE structure.   7.000000  24.943683    25.000000 6.179212  13.000000  36.175000                0.280632 -2.903879      0.999240     0.001521      1314         1.000000        0.027376  significant_depletion
+RNA_STRUCTURE__APA                 STRUCTURE_APA__MFE__overlap   exploratory                                APA overlap with MFE structure. 127.000000 120.239726   121.000000 3.634845 112.000000 126.000000                1.056223  1.859852      0.006084     1.000000      1314         0.018251        1.000000 significant_enrichment
+RNA_STRUCTURE__APA      STRUCTURE_APA__MFE__boundary_to_center   exploratory                             APA boundary/center ratio for MFE.  16.066667   4.151656     3.823529 1.556734   2.386667   7.814815                3.869942  7.653853      0.001521     0.999240      1314         0.013688        1.000000 significant_enrichment
+RNA_STRUCTURE__APA           STRUCTURE_APA__CENTROID__boundary   exploratory                   APA boundary relative to CENTROID structure.  91.000000  77.484018    77.000000 6.668186  64.000000  91.000000                1.174436  2.026935      0.028897     0.980228      1314         0.057795        1.000000     nominal_enrichment
+RNA_STRUCTURE__APA            STRUCTURE_APA__CENTROID__overlap   exploratory                           APA overlap with CENTROID structure. 127.000000 120.023592   120.000000 3.116459 115.000000 126.000000                1.058125  2.238569      0.018251     1.000000      1314         0.042776        1.000000 significant_enrichment
+RNA_STRUCTURE__APA               STRUCTURE_APA__UGUA__boundary   exploratory                       UGUA boundary relative to any structure.  31.000000  25.016743    25.000000 2.698005  20.000000  30.000000                1.239170  2.217660      0.019011     0.996198      1314         0.042776        1.000000 significant_enrichment
+RNA_STRUCTURE__APA                 STRUCTURE_APA__UGUA__center   exploratory                         UGUA center relative to any structure.   1.000000   6.304414     6.000000 2.514578   2.000000  11.000000                0.158619 -2.109465      0.993916     0.025095      1314         1.000000        0.090342      nominal_depletion
+RNA_STRUCTURE__APA                STRUCTURE_APA__PAS__boundary   exploratory                        PAS boundary relative to any structure.  31.000000  25.822679    26.000000 1.976188  22.000000  30.000000                1.200495  2.619852      0.005323     1.000000      1314         0.018251        1.000000 significant_enrichment
+RNA_STRUCTURE__APA                  STRUCTURE_APA__PAS__center   exploratory                          PAS center relative to any structure.   0.000000   4.710807     4.000000 1.879076   1.000000   9.000000                0.000000 -2.506980      1.000000     0.005323      1314         1.000000        0.031939  significant_depletion
+RNA_STRUCTURE__APA      STRUCTURE_APA__CLEAVAGE_SITE__boundary   exploratory              CLEAVAGE_SITE boundary relative to any structure.  26.000000  19.624810    20.000000 2.495088  15.000000  24.000000                1.324854  2.555097      0.006084     0.998479      1314         0.018251        1.000000 significant_enrichment
+RNA_STRUCTURE__APA        STRUCTURE_APA__CLEAVAGE_SITE__center   exploratory                CLEAVAGE_SITE center relative to any structure.   3.000000   8.482496     8.000000 2.422932   4.000000  13.000000                0.353669 -2.262753      0.998479     0.012928      1314         1.000000        0.058175      nominal_depletion
+RNA_STRUCTURE__APA STRUCTURE_APA__DOWNSTREAM_ELEMENT__boundary   exploratory         DOWNSTREAM_ELEMENT boundary relative to any structure.  34.000000  28.974886    29.000000 2.889982  23.000000  34.000000                1.173430  1.738805      0.036502     0.982510      1314         0.065703        1.000000     nominal_enrichment
+RNA_STRUCTURE__APA   STRUCTURE_APA__DOWNSTREAM_ELEMENT__center   exploratory           DOWNSTREAM_ELEMENT center relative to any structure.   1.000000   5.626332     5.000000 2.839114   1.000000  12.000000                0.177736 -1.629498      0.982510     0.044867      1314         1.000000        0.134601      nominal_depletion
+
+Backup:
+/mnt/data/qc_build_logs/pat_aem_v2_rerun/PAT_authoritative/Backup
+/mnt/data/qc_build_logs/pat_aem_v2_rerun/PAT_authoritative/BAN_v2
++ /opt/pyvenv/bin/python /mnt/data/qc_build_logs/pat_aem_v2_rerun/Workspace/build_ADT_v1_authoritative.py
+
+ADT v1 СОЗДАНА
+Long: /mnt/data/qc_build_logs/pat_aem_v2_rerun/Workspace/Ras85D_Architecture_Domain_Table_v1_long.csv (102, 121)
+Consensus: /mnt/data/qc_build_logs/pat_aem_v2_rerun/Workspace/Ras85D_Architecture_Domain_Table_v1_consensus.csv (34, 37)
+Excel: /mnt/data/qc_build_logs/pat_aem_v2_rerun/Workspace/Ras85D_Architecture_Domain_Table_v1.xlsx
+QC: /mnt/data/qc_build_logs/pat_aem_v2_rerun/Workspace/Ras85D_ADT_v1_QC_report.txt
+
+Архитектурные классы:
+architectural_domain_class
+composite_interface_APA_structure_domain    44
+composite_ECM_APA_structure_domain          29
+ECM_interface_structure_domain              21
+APA_structure_domain                         3
+structural_APA_core                          3
+ECM_structure_domain                         2
+Name: count, dtype: int64
+
+ECM-контекст:
+ECM_context
+between_ECM             50
+inside_ECM              25
+ECM_interface           15
+crosses_ECM_boundary     6
+after_last_ECM           6
+Name: count, dtype: int64
+
+APA-контекст:
+APA_context_class
+partial_APA_neighborhood     53
+APA_distant                  23
+complete_APA_neighborhood    12
+PAS_cleavage_neighborhood     7
+cleavage_DSE_neighborhood     6
+core_APA_neighborhood         1
+Name: count, dtype: int64
+
+Согласие MFE/centroid:
+structure_model_agreement
+MFE_centroid_agreement       71
+MFE_centroid_disagreement    31
+Name: count, dtype: int64
+==============================================================================
+AUTHORITATIVE PAT/AEM RERUN — PASS
+==============================================================================
+PAT metrics: 43
+PAT edges: 3
+AEM long rows: 102
+AEM consensus rows: 34
+QC: /mnt/data/qc_build_logs/pat_aem_v2_rerun/Ras85D_PAT_AEM_authoritative_rerun_QC_v1.json

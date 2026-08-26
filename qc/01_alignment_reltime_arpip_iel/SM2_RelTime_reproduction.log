@@ -1,0 +1,9 @@
+Terminal relative rate
+Wilcoxon: WilcoxonResult(statistic=np.float64(245.0), pvalue=np.float64(0.1668022996159091))
+Pearson: PearsonRResult(statistic=np.float64(0.8537255957838924), pvalue=np.float64(3.6470328831311585e-11))
+Spearman: SignificanceResult(statistic=np.float64(0.8553774877728719), pvalue=np.float64(3.047094679636088e-11))
+
+Cumulative root-to-tip rate
+Wilcoxon: WilcoxonResult(statistic=np.float64(0.0), pvalue=np.float64(2.9103830456733704e-11))
+Pearson: PearsonRResult(statistic=np.float64(0.9325714681366697), pvalue=np.float64(1.3067209968813329e-16))
+Spearman: SignificanceResult(statistic=np.float64(0.8628611897653886), pvalue=np.float64(1.3116287591953773e-11))

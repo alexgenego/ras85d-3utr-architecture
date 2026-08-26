@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "architecture_rows": 510,
+  "coverage_tests": 1414,
+  "coverage_nominal": 46,
+  "coverage_fdr": 6,
+  "distance_tests": 12,
+  "distance_nominal": 0,
+  "distance_fdr": 0
+}

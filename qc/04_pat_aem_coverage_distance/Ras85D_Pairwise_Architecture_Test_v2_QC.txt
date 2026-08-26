@@ -1,0 +1,18 @@
+Ras85D Pairwise Architecture Test v2
+========================================================================
+MAT: /mnt/data/qc_build_logs/pat_aem_v2_rerun/Workspace/Ras85D_Master_Architecture_Table_v1_1.csv
+alignment3 master: /mnt/data/qc_build_logs/pat_aem_v2_rerun/Workspace/Ras85D_alignment3_master_base.csv
+alignment3 length: 1315
+non-zero circular shifts: 1314
+tested metrics: 43
+
+FDR was applied separately within each BAN edge and metric family.
+Boundary association: distance <= 2 alignment columns.
+
+Edge summary:
+           edge_id evidence_grade                  evidence_status                       strongest_metric strongest_metric_family  observed  null_mean  effect_ratio  p_enrichment  p_depletion  q_enrichment  q_depletion      statistical_class
+          ECM__APA              C     nominal_exploratory_relation                  ECM_APA__all__overlap                 primary 70.000000  59.042618      1.185584      0.147529     0.876046      0.216730     0.876046        not_significant
+ECM__RNA_STRUCTURE              C     nominal_exploratory_relation ECM_STRUCTURE__ANY__boundary_to_center                 primary 99.000000  28.214903      3.508784      0.155894     1.000000      0.311787     1.000000        not_significant
+RNA_STRUCTURE__APA              A FDR_significant_primary_relation STRUCTURE_APA__ANY__boundary_to_center                 primary 22.272727   4.272117      5.213510      0.003802     0.998479      0.007605     1.000000 significant_enrichment
+
+Limitation: the test evaluates relations relative to the observed architectural landscape and does not imply direct 3D contact.

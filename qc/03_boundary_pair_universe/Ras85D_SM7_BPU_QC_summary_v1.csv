@@ -1,0 +1,10 @@
+﻿metric,value,unit,evidence_scope
+Pairwise-enabled QC-pass objects,525,objects,Boundary Pair Universe
+All unordered object pairs,137550,pairs,525 × 524 / 2
+Eligible pairs,107321,pairs,frozen null universe
+Ineligible pairs,30229,pairs,all pairs minus eligible
+Eligible fraction,0.7802326426753907,fraction,eligible / all
+Observed interfaces mapped to BPU,871,pairs,all architecture layers
+Pair categories in eligible BPU,120,categories,unordered canonical pair categories
+Pair categories with observed interfaces,60,categories,observed subset
+Categories requiring feasibility attention,7,categories,small or constrained eligible spaces

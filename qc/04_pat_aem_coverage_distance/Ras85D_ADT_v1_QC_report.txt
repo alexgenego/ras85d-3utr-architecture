@@ -1,0 +1,45 @@
+Ras85D ADT v1 QC REPORT
+============================================================
+MAT: /mnt/data/qc_build_logs/pat_aem_v2_rerun/Workspace/Ras85D_Master_Architecture_Table_v1_1.csv
+IEL: /mnt/data/qc_build_logs/pat_aem_v2_rerun/Workspace/Ras85D_IEL_master_table_final.csv
+Projection: /mnt/data/qc_build_logs/pat_aem_v2_rerun/Workspace/arpip_34_regions_alignment3_species_specific.csv
+ADT long rows: 102 (expected 102)
+ADT consensus rows: 34 (expected 34)
+
+Resolved projections:
+                sum  count
+species                   
+D.melanogaster   34     34
+D.virilis        34     34
+D.yakuba         34     34
+
+Domain classes:
+architectural_domain_class
+composite_interface_APA_structure_domain    44
+composite_ECM_APA_structure_domain          29
+ECM_interface_structure_domain              21
+APA_structure_domain                         3
+structural_APA_core                          3
+ECM_structure_domain                         2
+
+ECM contexts:
+ECM_context
+between_ECM             50
+inside_ECM              25
+ECM_interface           15
+crosses_ECM_boundary     6
+after_last_ECM           6
+
+APA contexts:
+APA_context_class
+partial_APA_neighborhood     53
+APA_distant                  23
+complete_APA_neighborhood    12
+PAS_cleavage_neighborhood     7
+cleavage_DSE_neighborhood     6
+core_APA_neighborhood         1
+
+Structure agreement:
+structure_model_agreement
+MFE_centroid_agreement       71
+MFE_centroid_disagreement    31

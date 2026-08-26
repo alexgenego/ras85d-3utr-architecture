@@ -1,0 +1,35 @@
+{
+  "test": "Coverage Enrichment Test v2.0 authoritative",
+  "n_architecture_rows": 510,
+  "n_permutations": 10000,
+  "apa_window_nt": 25,
+  "seed": 20260718,
+  "region_comparisons": 202,
+  "tests": 1414,
+  "nominal_p_lt_0_05": 46,
+  "fdr_lt_0_05": 6,
+  "feature_counts": {
+    "PAS": 9,
+    "CLEAVAGE": 12,
+    "UGUA": 11,
+    "DSE": 7,
+    "MIRNA_ALL": 90,
+    "MIRNA_CONSERVED": 6,
+    "MIRNA_WEAK": 84
+  },
+  "structure_counts": {
+    "HELIX": 181,
+    "None": 146,
+    "INTERIOR_LOOP": 102,
+    "MULTILOOP": 33,
+    "HAIRPIN": 26,
+    "BULGE": 18,
+    "EXTERIOR": 4
+  },
+  "structure_model_counts": {
+    "MFE": 203,
+    "CENTROID": 161,
+    "nan": 146
+  },
+  "ecm_rows": 17
+}

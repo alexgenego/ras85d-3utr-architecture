@@ -1,0 +1,6 @@
+PAT results: rerun_shape=(43, 18); preserved_shape=(43, 18)
+  max_numeric_abs_diff=0; text_cell_differences=0
+PAT edge summary: rerun_shape=(3, 13); preserved_shape=(3, 13)
+  max_numeric_abs_diff=0; text_cell_differences=0
+AEM consensus: rerun_shape=(34, 37); preserved_shape=(34, 37)
+  max_numeric_abs_diff=0; text_cell_differences=0

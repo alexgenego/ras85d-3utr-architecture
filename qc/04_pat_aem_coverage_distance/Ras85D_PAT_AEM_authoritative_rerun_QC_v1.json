@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "PAT_metrics": 43,
+  "PAT_edges": 3,
+  "PAT_inventory": [
+    {
+      "species": "D.melanogaster",
+      "n_ECM": 17,
+      "n_APA": 39,
+      "n_UGUA": 11,
+      "n_PAS": 9,
+      "n_CLEAVAGE": 12,
+      "n_DSE": 7,
+      "n_MFE_structure": 203,
+      "n_centroid_structure": 161
+    },
+    {
+      "species": "D.yakuba",
+      "n_ECM": 17,
+      "n_APA": 36,
+      "n_UGUA": 9,
+      "n_PAS": 9,
+      "n_CLEAVAGE": 8,
+      "n_DSE": 10,
+      "n_MFE_structure": 205,
+      "n_centroid_structure": 129
+    },
+    {
+      "species": "D.virilis",
+      "n_ECM": 15,
+      "n_APA": 52,
+      "n_UGUA": 12,
+      "n_PAS": 13,
+      "n_CLEAVAGE": 9,
+      "n_DSE": 18,
+      "n_MFE_structure": 252,
+      "n_centroid_structure": 185
+    }
+  ],
+  "AEM_long_rows": 102,
+  "AEM_consensus_rows": 34,
+  "PAT_edge_summary": [
+    {
+      "edge_id": "ECM__APA",
+      "evidence_grade": "C",
+      "evidence_status": "nominal_exploratory_relation",
+      "strongest_metric": "ECM_APA__all__overlap",
+      "strongest_metric_family": "primary",
+      "observed": 70.0,
+      "null_mean": 59.04261796042618,
+      "effect_ratio": 1.1855842850145653,
+      "p_enrichment": 0.1475285171102661,
+      "p_depletion": 0.8760456273764259,
+      "q_enrichment": 0.2167300380228136,
+      "q_depletion": 0.8760456273764259,
+      "statistical_class": "not_significant"
+    },
+    {
+      "edge_id": "ECM__RNA_STRUCTURE",
+      "evidence_grade": "C",
+      "evidence_status": "nominal_exploratory_relation",
+      "strongest_metric": "ECM_STRUCTURE__ANY__boundary_to_center",
+      "strongest_metric_family": "primary",
+      "observed": 99.0,
+      "null_mean": 28.21490315387427,
+      "effect_ratio": 3.508783973494023,
+      "p_enrichment": 0.155893536121673,
+      "p_depletion": 1.0,
+      "q_enrichment": 0.311787072243346,
+      "q_depletion": 1.0,
+      "statistical_class": "not_significant"
+    },
+    {
+      "edge_id": "RNA_STRUCTURE__APA",
+      "evidence_grade": "A",
+      "evidence_status": "FDR_significant_primary_relation",
+      "strongest_metric": "STRUCTURE_APA__ANY__boundary_to_center",
+      "strongest_metric_family": "primary",
+      "observed": 22.272727272727277,
+      "null_mean": 4.272117439944359,
+      "effect_ratio": 5.213510065167441,
+      "p_enrichment": 0.0038022813688212,
+      "p_depletion": 0.9984790874524716,
+      "q_enrichment": 0.0076045627376425,
+      "q_depletion": 1.0,
+      "statistical_class": "significant_enrichment"
+    }
+  ],
+  "AEM_consensus_class_counts": {
+    "partially_conserved_domain_class": 20,
+    "conserved_domain_class": 14
+  },
+  "input_sha256": {
+    "registry": "cc71b57cf6fc0dfc120359b93b3c575fa3b6aacb919f9f12995be37c9e4f0af5",
+    "iel_master": "35d54c77c69cf1b85aec3e6edc33832debd469e825cc67f76d5847ae8dcf9260",
+    "iel_projections": "ba2b287f3737d451bbad29d4fb3c1379d4f9f5e51eb03034a82fb67c67dddd75",
+    "pat_script": "9a02455963ca17fd7f42f7d5eadfa5a7c1f84ef5612355af67cd2c00301b7872",
+    "adt_script": "1af08d0ba03667f09387983942fa2ca275a6c1dfcd1592b8bc4155c672083cf2"
+  },
+  "output_root": "/mnt/data/qc_build_logs/pat_aem_v2_rerun"
+}

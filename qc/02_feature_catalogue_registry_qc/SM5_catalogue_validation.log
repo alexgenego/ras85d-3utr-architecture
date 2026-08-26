@@ -1,0 +1,7 @@
+SM5 catalogue QC passed
+TE candidates: 3
+Microsatellite evidence rows: 5
+ECM groups: 17
+ECM occurrences: 49
+Species counts: {'D. melanogaster': 17, 'D. yakuba': 17, 'D. virilis': 15}
+Reverse-complement occurrence: ('ECM_11', 'D. virilis')
