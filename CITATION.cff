@@ -3,6 +3,7 @@ message: "If you use this repository, please cite the associated manuscript and 
 title: "ras85d-3utr-architecture"
 type: software
 version: 1.0.0
+doi: 10.5281/zenodo.22108845
 
 authors:
   - family-names: "Kulikov"
