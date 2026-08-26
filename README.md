@@ -94,6 +94,17 @@ License
 
 License information will be added before the repository is made public.
 
+## Reproducibility status
+
+The public archive preserves the manuscript-associated custom analytical code together with final inputs, outputs, and quality-control records wherever the original files remain available.
+
+PAT/AEM analyses were independently rerun from recovered minimal intermediate inputs and reproduced the preserved final PAT and AEM results without discrepancies. The public `v2` wrappers provide the recommended reproducibility route while retaining the original statistical implementations.
+
+The primary multiloop context-dispersion analysis is exactly reproduced by the public `v2` script, which preserves the species iteration order used in the manuscript-associated fixed-seed run.
+
+For the historical Boundary Pair Universe (BPU) analysis, the final builder and conditional permutation scripts, recorded input checksums, QC records, and compact final outputs are preserved. However, two normalized historical input files (`normalized_architecture.csv` and `interface_catalogue.csv`) were not retained after working-archive cleanup. They have not been reconstructed or replaced with a later object registry; therefore, the historical BPU analysis is not claimed to be fully rerunnable from the public archive.
+
+Files explicitly labelled `reconstructed` are recovery products generated from preserved final evidence and are not presented as the lost historical originals.
 Contact
 
 For questions concerning the analyses or repository contents, please contact:
