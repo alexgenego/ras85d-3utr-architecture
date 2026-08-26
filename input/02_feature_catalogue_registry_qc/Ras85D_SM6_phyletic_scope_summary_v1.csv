@@ -1,0 +1,4 @@
+﻿phyletic_scope,refined_groups,meaning
+CORE_3_SPECIES,53,object represented in all three focal species
+PAIRWISE,69,object represented in two focal species
+LINEAGE_SPECIFIC,92,object represented in one focal species

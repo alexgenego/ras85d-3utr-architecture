@@ -1,0 +1,7 @@
+﻿object_class,coordinate_type,rule,authoritative_use
+Species intervals,1-based inclusive,start and end denote nucleotide positions in the species-specific 3′UTR,"miRNA, ECM, UGUA, PAS, DSE and structure segments"
+Alignment intervals,1-based inclusive,start and end denote columns in the 1315-column three-species alignment,cross-species overlay and orthology evidence
+Cleavage sites,interbase boundary,cleavage is represented as a boundary between adjacent alignment or species positions,APA landmarks and boundary-based distances
+ECM_BLOCK,curated interval,exact curated ECM mask; raw MAST occurrences are search anchors only,"coverage, overlap and pairwise architecture tests"
+RNA structure,MFE and Centroid intervals,models are retained separately; structural segments are context layers rather than primary functional orthology units,structure-class coverage and boundary analyses
+IEL,evolutionary interval / projected locus,34 evolutionary IEL are retained in alignment space; 27 unique D. melanogaster loci are used to avoid repeated counting in the reference coordinate system,integration of evolutionary remodeling with functional architecture

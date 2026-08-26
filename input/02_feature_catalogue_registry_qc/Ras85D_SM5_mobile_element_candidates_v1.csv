@@ -1,0 +1,4 @@
+﻿candidate_id,taxon_or_lineage,candidate_element,repeat_class,homology_start,homology_end,homology_length,lineage_specific_interval,orientation,similarity_percent,alignment_score,ECM_context,status,interpretive_scope
+TE_01,D. willistoni,Gypsy-18_DVir-I,LTR/Gypsy,35,94,60,35–176,reverse_complement,84.48,232,ECM13 region,accepted candidate trace,candidate remnant; not a full-length transposon call
+TE_02,D. pseudoobscura / obscura group,Helitron-2_DSuz,DNA/Helitron,40,75,36,54–160,forward,89.47,224,ECM8 region,accepted candidate trace,candidate remnant; not a full-length transposon call
+TE_03,D. grimshawi,Gypsy-18_DVir-I,LTR/Gypsy,1100,1170,71,1064–1291,forward,78.26,229,between ECM11 and ECM13,accepted candidate trace,candidate remnant; not a full-length transposon call

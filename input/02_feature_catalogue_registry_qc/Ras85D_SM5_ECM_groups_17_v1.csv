@@ -1,0 +1,18 @@
+﻿ECM_group,Dmel_coordinates,Dyak_coordinates,Dvir_coordinates,Dmel_length,Dyak_length,Dvir_length,species_present,orientation_note,presence_note,coordinate_convention,status
+ECM_15,1–30,1–30,1–30,30,30,30,3,forward,present in 3 species,1-based inclusive,final harmonized ECM group
+ECM_07,44–73,44–73,36–65,30,30,30,3,forward,present in 3 species,1-based inclusive,final harmonized ECM group
+ECM_10,144–172,144–172,185–213,29,29,29,3,forward,present in 3 species,1-based inclusive,final harmonized ECM group
+ECM_05,185–214,185–214,225–254,30,30,30,3,forward,present in 3 species,1-based inclusive,final harmonized ECM group
+ECM_11,230–258,230–258,150–178,29,29,29,3,D. virilis reverse_complement,present in 3 species,1-based inclusive,final harmonized ECM group
+ECM_04,259–288,259–288,285–314,30,30,30,3,forward,present in 3 species,1-based inclusive,final harmonized ECM group
+ECM_17,289–317,289–317,,29,29,,2,forward,absent in D. virilis,1-based inclusive,final harmonized ECM group
+ECM_16,324–352,324–352,,29,29,,2,forward,absent in D. virilis,1-based inclusive,final harmonized ECM group
+ECM_02,372–401,372–401,359–388,30,30,30,3,forward,present in 3 species,1-based inclusive,final harmonized ECM group
+ECM_12,403–432,403–432,407–436,30,30,30,3,forward,present in 3 species,1-based inclusive,final harmonized ECM group
+ECM_06,572–601,572–601,637–666,30,30,30,3,forward,present in 3 species,1-based inclusive,final harmonized ECM group
+ECM_14,707–736,707–736,718–747,30,30,30,3,forward,present in 3 species,1-based inclusive,final harmonized ECM group
+ECM_13,767–795,767–795,805–833,29,29,29,3,forward,present in 3 species,1-based inclusive,final harmonized ECM group
+ECM_08,803–832,803–832,991–1020,30,30,30,3,forward,present in 3 species,1-based inclusive,final harmonized ECM group
+ECM_01,837–866,837–866,1024–1053,30,30,30,3,forward,present in 3 species,1-based inclusive,final harmonized ECM group
+ECM_03,888–917,888–917,1071–1100,30,30,30,3,forward,present in 3 species,1-based inclusive,final harmonized ECM group
+ECM_09,919–948,919–948,1102–1131,30,30,30,3,forward,present in 3 species,1-based inclusive,final harmonized ECM group

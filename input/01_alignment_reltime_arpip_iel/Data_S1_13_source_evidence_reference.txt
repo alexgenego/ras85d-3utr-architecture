@@ -1,0 +1,6 @@
+Ras85D SM1 source-evidence master archive
+Archive name: Ras85D_SM1_sequence_sources_complete_v1.zip
+SHA-256: 5114cbcb9761588af9ea9e3f3ea3cad25d72f6460e4a02db00251d555683969c
+Location used during manuscript assembly: Google Drive/Ras85D_ADT_backup/SM1_sequence_sources/
+The archive contains Table S1, BLAST query sets, raw HSP tables, best-hit summaries, download logs and checksums.
+Full genome assemblies are not redistributed in Data S1.

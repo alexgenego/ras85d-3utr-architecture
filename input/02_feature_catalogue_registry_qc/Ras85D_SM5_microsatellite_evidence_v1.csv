@@ -1,0 +1,6 @@
+﻿evidence_id,taxon_or_scope,repeat_class,documented_pattern,comparative_observation,coordinate_status,journal_status
+MS_01,all analysed taxa,(AC)n,dinucleotide tandem repeat,length-variable or lineage-specific repeat-associated insertions,final exhaustive coordinates pending,documented repeat class
+MS_02,all analysed taxa,(GT)n,dinucleotide tandem repeat,length-variable or lineage-specific repeat-associated insertions,final exhaustive coordinates pending,documented repeat class
+MS_03,all analysed taxa,(AT)n,dinucleotide tandem repeat,variable repeat expansions and contractions across related taxa,final exhaustive coordinates pending,documented repeat class
+MS_04,all analysed taxa,poly-A / poly-T,homopolymer tract,increased variability and degeneration of repeat-rich regions,final exhaustive coordinates pending,documented repeat class
+MS_05,D. borealis and virilis-group comparison,(AT)n-derived complex tract,(AT)5GT(AT)4AGCTGC,central tract spans 156 bp in D. borealis; contracted to 52 bp in D. flavomontana; 4–10 bp (AT)n fragments in other virilis-group taxa; 16–43 bp degenerate tracts in more distant subgenus Drosophila taxa,comparative interval documented; exact final coordinates pending,strong comparative example

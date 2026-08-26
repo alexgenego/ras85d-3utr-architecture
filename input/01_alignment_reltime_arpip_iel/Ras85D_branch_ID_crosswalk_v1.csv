@@ -1,0 +1,38 @@
+legacy_branch_id,canonical_branch_id,status,interpretation
+V12,N12,topology-matched,D.biarmipes; D.suzukii
+V13,N11,topology-matched,D.biarmipes; D.suzukii; D.takahashii
+V14,N06,topology-matched,D.biarmipes; D.erecta; D.melanogaster; D.sechellia; D.simulans; D.suzukii; D.takahashii; D.yakuba
+V17,N13,topology-matched,D.elegans; D.ficusphila
+V18,N05,topology-matched,D.biarmipes; D.elegans; D.erecta; D.ficusphila; D.melanogaster; D.sechellia; D.simulans; D.suzukii; D.takahashii; D.yakuba
+V2,N09,topology-matched,D.sechellia; D.simulans
+V22,N16,topology-matched,D.ananassae; D.bipectinata
+V25,N17,topology-matched,D.kikkawai; D.serrata
+V26,N15,topology-matched,D.ananassae; D.bipectinata; D.kikkawai; D.serrata
+V27,N14,topology-matched,D.ananassae; D.bipectinata; D.eugracilis; D.kikkawai; D.serrata
+V28,N04,topology-matched,D.ananassae; D.biarmipes; D.bipectinata; D.elegans; D.erecta; D.eugracilis; D.ficusphila; D.kikkawai; D.melanogaster; D.sechellia; D.serrata; D.simulans; D.suzukii; D.takahashii; D.yakuba
+V30,N03,topology-matched,D.ananassae; D.biarmipes; D.bipectinata; D.elegans; D.erecta; D.eugracilis; D.ficusphila; D.kikkawai; D.melanogaster; D.rhopaloa; D.sechellia; D.serrata; D.simulans; D.suzukii; D.takahashii; D.yakuba
+V34,N19,topology-matched,D.persimilis; D.pseudoobscura
+V35,N18,topology-matched,D.obscura; D.persimilis; D.pseudoobscura
+V36,N02,topology-matched,D.ananassae; D.biarmipes; D.bipectinata; D.elegans; D.erecta; D.eugracilis; D.ficusphila; D.kikkawai; D.melanogaster; D.obscura; D.persimilis; D.pseudoobscura; D.rhopaloa; D.sechellia; D.serrata; D.simulans; D.suzukii; D.takahashii; D.yakuba
+V38,N01,topology-matched,D.ananassae; D.biarmipes; D.bipectinata; D.elegans; D.erecta; D.eugracilis; D.ficusphila; D.kikkawai; D.melanogaster; D.obscura; D.persimilis; D.pseudoobscura; D.rhopaloa; D.sechellia; D.serrata; D.simulans; D.suzukii; D.takahashii; D.willistoni; D.yakuba
+V4,N08,topology-matched,D.melanogaster; D.sechellia; D.simulans
+V42,N24,topology-matched,D.mojavensis; D.navojoa
+V44,N23,topology-matched,D.hydei; D.mojavensis; D.navojoa
+V46,N22,topology-matched,D.albomicans; D.hydei; D.mojavensis; D.navojoa
+V52,N30,topology-matched,D.flavomontana; D.montana
+V54,N29,topology-matched,D.borealis; D.flavomontana; D.montana
+V60,N34,topology-matched,D.americana; D.novamexicana
+V61,N33,topology-matched,D.americana; D.lummei; D.novamexicana
+V62,N32,topology-matched,D.americana; D.lummei; D.novamexicana; D.virilis
+V63,N31,topology-matched,D.americana; D.littoralis; D.lummei; D.novamexicana; D.virilis
+V64,N28,topology-matched,D.americana; D.borealis; D.flavomontana; D.littoralis; D.lummei; D.montana; D.novamexicana; D.virilis
+V65,N27,topology-matched,D.americana; D.borealis; D.flavomontana; D.kanekoi; D.littoralis; D.lummei; D.montana; D.novamexicana; D.virilis
+V66,N26,topology-matched,D.americana; D.borealis; D.ezoana; D.flavomontana; D.kanekoi; D.littoralis; D.lummei; D.montana; D.novamexicana; D.virilis
+V67,N25,topology-matched,D.americana; D.borealis; D.ezoana; D.flavomontana; D.grimshawi; D.kanekoi; D.littoralis; D.lummei; D.montana; D.novamexicana; D.virilis
+V68,N21,topology-matched,D.albomicans; D.americana; D.borealis; D.ezoana; D.flavomontana; D.grimshawi; D.hydei; D.kanekoi; D.littoralis; D.lummei; D.mojavensis; D.montana; D.navojoa; D.novamexicana; D.virilis
+V69,N20,topology-matched,D.albomicans; D.americana; D.borealis; D.busckii; D.ezoana; D.flavomontana; D.grimshawi; D.hydei; D.kanekoi; D.littoralis; D.lummei; D.mojavensis; D.montana; D.navojoa; D.novamexicana; D.virilis
+V7,N10,topology-matched,D.erecta; D.yakuba
+V8,N07,topology-matched,D.erecta; D.melanogaster; D.sechellia; D.simulans; D.yakuba
+V70,SYN_INGROUP_STEM,synthetic-alias-excluded,36-taxon ingroup stem created by alternate rerooting; absent from canonical Newick
+V71,SYN_INGROUP_STEM,synthetic-alias-excluded,36-taxon ingroup stem created by alternate rerooting; absent from canonical Newick
+root,ROOT,root-alias,tree root; not a branch
